@@ -1,24 +1,14 @@
-// using System.Collections.Generic;
-// using UnityEngine;
+using System.Collections.Generic;
+using UnityEngine;
 
-// public class Deck : MonoBehaviour
-// {
-//     public List<Card> cards; // Fill this in Inspector with your cards
-//     public Transform handArea; // UI parent for spawned cards
-//     public GameObject cardPrefab; // A UI prefab to display a card
+[CreateAssetMenu(fileName = "Deck", menuName = "Deck")]
+public abstract class Deck : ScriptableObject
+{
+    public string deckName;
+    public Sprite artwork;
 
-//     public void DrawCard()
-//     {
-//         if (cards.Count == 0) return;
+    public List<Card> cards; 
 
-//         // Pick a random card or top card
-//         int index = Random.Range(0, cards.Count);
-//         Card drawnCard = cards[index];
-//         cards.RemoveAt(index);
-
-//         // Create its visual representation
-//         GameObject cardGO = Instantiate(cardPrefab, handArea);
-//         cardGO.GetComponent<CardDisplay>().Setup(drawnCard);
-//     }
-// }
+    public abstract void Select();
+}
 
