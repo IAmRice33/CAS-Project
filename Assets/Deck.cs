@@ -1,8 +1,8 @@
-// using System.Collections.Generic;
-// using UnityEngine;
+using System.Collections.Generic;
+using UnityEngine;
 
-// public class Deck : MonoBehaviour
-// {
+public class Deck : MonoBehaviour
+{
 //     public List<Card> cards; // Fill this in Inspector with your cards
 //     public Transform handArea; // UI parent for spawned cards
 //     public GameObject cardPrefab; // A UI prefab to display a card
@@ -20,5 +20,5 @@
 //         GameObject cardGO = Instantiate(cardPrefab, handArea);
 //         cardGO.GetComponent<CardDisplay>().Setup(drawnCard);
 //     }
-// }
+}
 
