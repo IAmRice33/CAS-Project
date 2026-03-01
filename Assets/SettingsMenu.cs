@@ -10,6 +10,8 @@ public class SettingsMenu : MonoBehaviour
     public TMP_Dropdown graphicsDropdown;
     Resolution[] resolutions;
     public TMP_Dropdown resolutionDropdown;
+    public Slider volumeSlider;
+    float savedVolume;
 
     void Start()
     {
@@ -40,6 +42,11 @@ public class SettingsMenu : MonoBehaviour
         resolutionDropdown.AddOptions(resolutionOptions);
         resolutionDropdown.value = currRes;
         resolutionDropdown.RefreshShownValue();
+
+        savedVolume = PlayerPrefs.GetFloat("Volume", 0f);
+        audioMixer.SetFloat("Volume", savedVolume);
+        volumeSlider.value = savedVolume;
+        volumeSlider.onValueChanged.AddListener(setVolume);
     }
 
     void Update()
@@ -53,6 +60,9 @@ public class SettingsMenu : MonoBehaviour
     public void setVolume(float volume)
     {
         audioMixer.SetFloat("Volume", volume);
+
+        PlayerPrefs.SetFloat("Volume", volume);
+        PlayerPrefs.Save();
     }
 
     public void setQuality(int quality)

@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Main Menu.unity
+    path: Assets/Scenes/MainMenu.unity
     guid: 62684377b2a77e449aba7168e2114374
   - enabled: 1
     path: Assets/Scenes/Deck Selector.unity
