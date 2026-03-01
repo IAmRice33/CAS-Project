@@ -7,7 +7,7 @@ public class ShopRender : MonoBehaviour
     public Card card;
     public Image artworkImage;
 
-    public TextMeshProUGUI descriptiontext;
+    //public TextMeshProUGUI descriptiontext;
     public Shop shop;
 
     public void Setup(Card card)
@@ -24,7 +24,7 @@ public class ShopRender : MonoBehaviour
             Debug.LogError("card.artwork is NULL!");
 
         artworkImage.sprite = card.artwork;
-        descriptiontext.text = card.description;
+        //descriptiontext.text = card.description;
     }
 
     public void Selected()
