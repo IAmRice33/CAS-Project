@@ -14,4 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deckName: Blue Deck
   artwork: {fileID: 8474736444478915712, guid: 3b8e1c5f241a7144e8f437deffe377b3, type: 3}
-  cards: []
+  cards:
+  - {fileID: 11400000, guid: 5929d94a599699248a2ad0a511b9c7c5, type: 2}
+  - {fileID: 11400000, guid: 5929d94a599699248a2ad0a511b9c7c5, type: 2}
+  - {fileID: 11400000, guid: 122f3a8b3ad13d143960bd7ea7b26d8f, type: 2}
+  - {fileID: 11400000, guid: d2022607b8a4d0748a19e455bd8e21f2, type: 2}
+  - {fileID: 11400000, guid: c33e910a6b7744e46adabc1a5549271a, type: 2}

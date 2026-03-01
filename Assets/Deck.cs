@@ -10,6 +10,9 @@ public abstract class Deck : ScriptableObject
     public List<Card> cards; 
 
     public abstract void Select();
-
+    public int Length()
+    {
+        return cards.Count;
+    }
 }
 
