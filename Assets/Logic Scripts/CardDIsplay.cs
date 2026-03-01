@@ -1,9 +1,12 @@
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class CardDisplay : MonoBehaviour
 {
     public Image artworkImage;
+
+    public TextMeshProUGUI descriptiontext;
 
     public Card card;
     public TurnManager turnManager;
@@ -22,6 +25,8 @@ public class CardDisplay : MonoBehaviour
         this.card = card;
 
         artworkImage.sprite = card.artwork;
+
+        descriptiontext.text = card.description;
     }
 
     // Hook this up to a Button’s OnClick event

@@ -14,4 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cardName: Refund
   artwork: {fileID: -956771111867522911, guid: cfaacdae152e75948bb48b54d312ed54, type: 3}
+  description: refund
   num: 5

@@ -14,3 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cardName: Take Aim
   artwork: {fileID: 110370416527105679, guid: 1864811fff8757944ae04c08971f58dc, type: 3}
+  description: aim

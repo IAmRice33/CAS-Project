@@ -1,3 +1,4 @@
+using TMPro;
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "Card", menuName = "Card")]
@@ -5,6 +6,8 @@ public abstract class Card : ScriptableObject
 {
     public string cardName;
     public Sprite artwork;
+
+    public string description;
 
     public virtual int energycost => 0;
 

@@ -14,4 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cardName: Frontload Blast
   artwork: {fileID: -1654431136738680558, guid: 08027cbbb55141a49ad03eb483e10472, type: 3}
+  description: hyoper
   damage: 200
+  recoil: 50

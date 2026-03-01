@@ -14,3 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cardName: 'Recolour: Blue'
   artwork: {fileID: 1653030461843111634, guid: a4803bcfe5fbb974c82ca3eb83fb2972, type: 3}
+  description: rblu

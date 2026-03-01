@@ -14,3 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cardName: 'Recolour: Red'
   artwork: {fileID: -3879041638051260454, guid: 573d34b20796a274d99f6815e455edb9, type: 3}
+  description: rred
