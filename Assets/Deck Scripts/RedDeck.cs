@@ -8,4 +8,5 @@ public class RedDeck : Deck
     {
         throw new System.NotImplementedException();
     }
+
 }

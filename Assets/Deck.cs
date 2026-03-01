@@ -10,5 +10,6 @@ public abstract class Deck : ScriptableObject
     public List<Card> cards; 
 
     public abstract void Select();
+
 }
 
