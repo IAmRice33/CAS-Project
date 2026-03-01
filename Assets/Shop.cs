@@ -30,12 +30,14 @@ public class Shop : MonoBehaviour
         Debug.Log("Card selected");
 
         UpdateRemainingText();
+
+        AddToDeck(card);
     }
 
-    // public void AddToDeck()
-    // {
-        
-    // }
+    public void AddToDeck(Card card)
+    {
+        GameManager.Instance.playerDeck.Add(card);
+    }
 
     void Start()
     {
