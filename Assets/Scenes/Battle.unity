@@ -1278,7 +1278,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &752110729
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3041,7 +3041,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   artworkImage: {fileID: 1736408053}
-  descriptiontext: {fileID: 752110730}
   card: {fileID: 0}
   turnManager: {fileID: 1519874888}
   enemyHealthBar: {fileID: 1468307231}
