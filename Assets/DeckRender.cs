@@ -20,14 +20,25 @@ public class DeckRender : MonoBehaviour
     public void OpenDeck()
     {
         Debug.Log("Opening Deck...");
+
+        deckcardsdisplay.SetActive(false);
+
+        for (int i = carddeckArea.childCount - 1; i >= 1; i--)
+        {
+            Destroy(carddeckArea.GetChild(i).gameObject);
+        }
+
+        deckcardsdisplay.SetActive(true);
+
+        Debug.Log("Deck count: " + deck.cards.Count);
+
         foreach(Card card in deck.cards)
         {
-            deckcardsdisplay.SetActive(true);
+            Debug.Log("Spawning card: " + card.name);
             GameObject cardGO = Instantiate(carddeckDisplayPrefab, carddeckArea);
             cardGO.SetActive(true); // Ensure the instantiated card is active
             CardDisplay display = cardGO.GetComponent<CardDisplay>();
             display.Setup(card);
-            
         }
         
     }
