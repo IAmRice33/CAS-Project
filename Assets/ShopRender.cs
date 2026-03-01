@@ -31,5 +31,6 @@ public class ShopRender : MonoBehaviour
             return;
         }
         shop.CardSelected(card);
+        Destroy(gameObject);
     }
 }
