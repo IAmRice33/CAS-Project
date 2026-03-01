@@ -14,5 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cardName: Agony
   artwork: {fileID: -7979954530319455683, guid: ae6471adb39a95f42a6f0c60dedcc4e7, type: 3}
+  description: ag ony
   flatdamage: 100
   scalingdamage: 250

@@ -14,4 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cardName: Incinerate
   artwork: {fileID: 2787869987872475118, guid: 00355c30b331bf546b86088ee6c5fb5c, type: 3}
+  description: burn
   damage: 30

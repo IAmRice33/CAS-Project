@@ -14,5 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cardName: Drainage Pipe
   artwork: {fileID: 8474736444478915712, guid: 3b8e1c5f241a7144e8f437deffe377b3, type: 3}
+  description: drain
   damage: 50
   recoil: -50

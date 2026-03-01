@@ -14,3 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cardName: Steel Heart
   artwork: {fileID: 4046121191315670547, guid: b17d7bce63b8b774d9dbb6ed5ba8d217, type: 3}
+  description: steel

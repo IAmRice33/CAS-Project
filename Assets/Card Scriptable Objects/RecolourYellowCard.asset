@@ -14,3 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cardName: 'Recolour: Yellow'
   artwork: {fileID: -7120932322939182639, guid: fca273703e6ed77419c18498c7fceb87, type: 3}
+  description: ryello

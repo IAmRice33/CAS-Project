@@ -14,4 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cardName: Quick Draw
   artwork: {fileID: -211017579238575478, guid: c3686092ec447074a9239deb61b438bc, type: 3}
+  description: draw
   num: 3
