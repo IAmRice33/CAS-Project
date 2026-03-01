@@ -9,7 +9,6 @@ public class CDisplay : MonoBehaviour
     public Shop shop;
     Card[] inShop = new Card[5];
     int index;
-    int count = 0;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()

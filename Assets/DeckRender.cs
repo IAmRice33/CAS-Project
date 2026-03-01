@@ -11,6 +11,8 @@ public class DeckRender : MonoBehaviour
 
     public GameObject deckcardsdisplay;
 
+    public SelectDeck selectDeck;
+
     public void Setup(Deck deck)
     {
         this.deck = deck;
@@ -40,7 +42,8 @@ public class DeckRender : MonoBehaviour
             CardDisplay display = cardGO.GetComponent<CardDisplay>();
             display.Setup(card);
         }
-        
+
+        selectDeck.DeckSelected(deck);
     }
     public void CloseDeck()
     {
