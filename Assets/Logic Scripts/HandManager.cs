@@ -91,6 +91,8 @@ public class HandManager : MonoBehaviour
     }
     void Start()
     {
+        deck.Clear();
+        deck = GameManager.Instance.playerDeck;
         drawPile = new List<Card>(deck);
         ShufflePile(drawPile);
         Draw(3);
